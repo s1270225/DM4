@@ -3,7 +3,12 @@
 
 int main(){
   int a,b,c=0,d=0;
-
+  char e[8];
+  
+  printf("Who are you ?");
+  scanf("%s",e);
+  printf("hello %s\n",e);
+  
   printf("Tossing a coin...\n");
 
   for (a=0;a<3;a++){

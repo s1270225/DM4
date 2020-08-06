@@ -23,10 +23,10 @@ int main(){
   }
   printf("Heads: %d, Tails: %d\n",c,d);
   
-  if (c>d){
-    printf("You won\n");
+   if (c>d){
+    printf("%s won\n",e);
   }else{
-    printf("You lost\n");
+    printf("%s lost\n",e);
   }
   
   return 0;

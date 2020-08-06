@@ -17,5 +17,12 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",c,d);
+  
+  if (c>d){
+    printf("You won\n");
+  }else{
+    printf("You lost\n");
+  }
+  
   return 0;
 }
